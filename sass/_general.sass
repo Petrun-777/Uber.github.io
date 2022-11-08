@@ -1,0 +1,507 @@
+a
+  text-decoration: none
+
+h1, h2, h3
+  margin: 0
+
+=btn_hover
+  &:hover
+    background: #54bddd
+
+/* #region header */
+nav
+  height: 50px
+  background: #212121
+
+.hamburger
+  display: none
+
+.menu-1
+  display: flex
+  justify-content: space-between;
+  padding: 13px 70px
+  margin: 0
+  list-style-type: none
+    
+
+.menu-link
+  font-weight: 300
+  font-size: 15px
+  color: #FFFFFF
+
+.menu-item
+  border-right: 2px dotted #000
+  padding: 0 38px
+  &:last-child
+    border-right: none
+
+.subheader
+  position: absolute
+  width: 100%
+  background: #000000
+  background-color: rgba(0, 0, 0, 0.6)
+  height: 84px
+
+.subheader-official
+  color: #FFFFFF
+  font-weight: 100
+  font-size: 13px
+  margin-top: 6px
+
+.subheader-logo
+  display: block
+  max-width: 100%
+  margin-top: 16px
+
+.subheader-call
+  color: #FFFFFF
+  font-weight: 300
+  font-size: 12px
+  line-height: 14px
+  margin-top: 19px
+
+.subheader-phone
+  color: #FFFFFF
+  font-weight: 400
+  font-size: 22px
+
+.subheader .call-btn
+  width: 172px
+  height: 46px
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
+  border-radius: 4px
+  font-size: 14px
+  color: #FFFFFF
+  border: none
+  margin-top: 19px
+  +btn_hover
+    
+.promo .sent-btn
+  display: block
+  width: 259px
+  height: 63px
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12)
+  border-radius: 4px
+  border: none
+  font-weight: 400
+  font-size: 18px
+  color: #FFFFFF
+  margin: 100px auto 0 auto
+  +btn_hover
+
+.promo
+  background: url(../img/uber_bg.png) center center/cover no-repeat
+  padding: 184px 0 100px 0
+
+.promo-header
+  font-weight: 900
+  font-size: 60px
+  color: #FFFFFF
+  margin: 0
+  text-align: center
+
+.promo-subheader
+  font-weight: 900
+  font-size: 36px
+  color: #FFFFFF
+  margin: 0
+  margin-top: 12px
+  text-align: center
+
+.promo-descr
+  font-weight: 400
+  font-size: 18px
+  line-height: 24px
+  color: #FFFFFF
+  text-align: center
+  margin-top: 16px
+
+.descr-2
+  margin-top: 23px
+
+/* #endregion */
+.benefits
+  padding: 30px 0 30px 0
+
+
+
+
+
+.btn
+  display: block
+  width: 113px
+  height: 24px
+  background-color: black
+  font-weight: 400
+  font-size: 12px
+  color: #FFFFFF
+  margin: 0 auto 30px 
+
+.white-btn
+  background-color: #FFFFFF
+  color: #000
+  margin: 30px auto 30px
+
+
+
+
+.benefits-title
+  font-weight: 700
+  font-size: 38px
+  line-height: 48px
+  color: #222222
+  text-align: center
+  margin-bottom: 20px
+  text-transform: uppercase
+
+.benefits-icons
+  width: 113px
+  height: 113px
+  background: #1EACC7
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-right: 25px
+  flex-shrink: 0
+
+.benefits-text
+  color: #1EACC7
+  font-weight: 400
+  font-size: 17px
+  line-height: 21px
+
+.benefits-descr
+  font-weight: 400
+  font-size: 13px
+  line-height: 21px
+
+.section
+  margin-bottom: 46px
+  display: flex
+  align-items: center
+
+.subtitle
+  text-align: center
+  font-weight: 400
+  font-size: 17px
+  line-height: 21px
+  color: #222222
+  margin-bottom: 10px
+
+.mobile-title
+  font-weight: 700
+  font-size: 38px
+  line-height: 48px
+  color: #222222
+  text-align: center
+  margin-bottom: 16px
+  text-transform: uppercase
+
+.mobile 
+  padding: 30px 0 30px 0
+  background: url('../img/mobile_bg.png')
+  &-item
+    position: relative
+    width: 320px
+    height: 280px
+    margin: 20px auto
+    padding-top: 83px
+    text-align: center
+    &-1
+      background: url('../img/Карточка-1.png') center center/cover no-repeat
+    &-2
+      background: url('../img/Карточка-2.png') center center/cover no-repeat
+    &-3
+      background: url('../img/Карточка-3.png') center center/cover no-repeat
+    &-4
+      background: url('../img/Карточка-4.png') center center/cover no-repeat
+    &-5
+      background: url('../img/Карточка-5.png') center center/cover no-repeat
+    &-6
+      background: url('../img/Карточка-6.png') center center/cover no-repeat
+    &-subtitle
+      font-size: 24px
+      color: #FFFFFF
+      text-transform: uppercase
+    &-plus
+      display: flex
+      justify-content: center
+      align-items: center
+      position: absolute
+      bottom: 35px
+      left: 50%
+      transform: translateX(-50%)
+      width: 26px
+      height: 26px
+      background: #000000
+      border-radius: 50%
+      margin: 0 auto
+      cursor: pointer
+      &::before
+        content: ''
+        display: block
+        width: 14px
+        height: 2px
+        background-color: $main-color
+        transition: 0.3s 
+      &::after
+        content: ''
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        display: block
+        width: 2px
+        height: 14px
+        background-color: $main-color
+        transition: 0.3s 
+      &:hover
+        &:before, &::after
+          background-color: $second-color
+
+
+.order-car
+  background: url(../img/Темная-подложка.png) center center/cover no-repeat
+  min-height: 500px
+  padding: 1px 0 30px 0
+
+.order-btn
+  display: block
+  width: 113px
+  height: 24px
+  background-color: white
+  font-weight: 400
+  font-size: 12px
+  line-height: 11px
+  color: black
+  margin: 0 auto 30px 
+  border: none
+
+.order-title
+  font-weight: 700
+  font-size: 38px
+  color: #FFFFFF
+  text-transform: uppercase
+  text-align: center
+
+.subtitle-1
+  font-weight: 400
+  font-size: 17px
+  color: #FFFFFF
+  text-align: center
+  margin-bottom: 54px
+
+.car
+  text-align: center
+  position: relative
+
+.car-img
+  position: absolute
+  top: -260px
+  left: 50%
+  transform: translateX(-50%)
+  
+
+.order-car-2
+  background: url(../img/Подложка.png)
+  min-height: 397px
+  position: relative
+
+.subtitle-2
+  position: absolute
+  bottom: 137px
+  left: 50%
+  transform: translateX(-50%)
+  text-align: center
+
+.require-title
+  font-weight: 700
+  font-size: 38px
+  line-height: 48px
+  color: #222222
+  text-align: center
+  margin-bottom: 16px
+  text-transform: uppercase
+
+.require-title-2
+  font-weight: 400
+  font-size: 22px
+  line-height: 24px
+  color: $main-color
+  margin-bottom: 16px
+  text-transform: uppercase
+
+.require-title-3
+  font-weight: 400
+  font-size: 22px
+  line-height: 24px
+  color: $second-color
+  margin-bottom: 16px
+  text-transform: uppercase
+
+
+.require
+  padding: 30px 0 30px 0
+  &-block
+    margin: 33px 0
+    &-nmb
+      margin-bottom: 0
+  &-descr
+    font-weight: 300
+    font-size: 17px
+    color: $main-color
+  &-list
+    list-style-type: none
+    margin-top: 22px
+    li
+      position: relative
+      margin-bottom: 10px
+      &::before
+        content: ''
+        display: block
+        position: absolute
+        left: -32px
+        top: 3px
+        width: 21px
+        height: 20px
+        background: url(../icons/check_blue.png) center (center/cover) no-repeat
+  .warning
+    .require-list
+      li
+        &::before
+          background: url(../icons/check_red.png) center (center/cover) no-repeat
+
+.require-list
+  font-weight: 300
+  font-size: 17px
+  line-height: 24px
+
+.world
+  background: #080810
+  position: relative
+  min-height: 720px
+  &-city a
+    font-size: 15px
+    line-height: 68px
+    color: #1FBAD6
+    text-transform: uppercase
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    bottom: 22px
+    transition: 0.3s
+    width: 200px
+    &:hover
+      color: $second-color
+
+    
+    
+
+.world-container
+  position: absolute
+  left: 50%
+  transform: translateX(-50%)
+  top: 0
+  background: url(../img/world_bg.png) center no-repeat
+  min-height: 716px
+
+.world-btn
+  display: block
+  width: 113px
+  height: 24px
+  background-color: white
+  font-weight: 400
+  font-size: 12px
+  line-height: 11px
+  color: black
+  margin: 0 auto
+  border: none
+  margin: 30px auto 30px
+
+.world-title
+  font-weight: 700
+  font-size: 38px
+  color: #FFFFFF
+  text-transform: uppercase
+  text-align: center
+
+.world-subtitle
+  font-weight: 400
+  font-size: 17px
+  color: #FFFFFF
+  text-align: center
+
+footer
+  padding: 14px 23px 43px 23px
+  a
+    &:hover
+      text-decoration: none
+  
+
+.footer-mobile
+  width: 33.33%
+  display: flex
+  justify-content: center
+  &-img
+    margin: 0 5px
+
+.footer-links
+  width: 33.33%
+
+.footer-social
+  width: 33.33%
+  justify-content: center
+
+.footer_divider
+  width: 299px
+  height: 4px
+  background-color: #1fbad6
+  margin: 0 auto
+
+.footer-wrapper
+  display: flex 
+  justify-content: space-between
+  padding-top: 32px
+  align-items: center
+
+.footer-social
+  display: flex
+
+.footer-social-item
+  display: flex 
+  justify-content: center
+  align-items: center
+  margin: 0 5px
+  width: 32px
+  height: 32px
+  background-color: #070716
+  border-radius: 100%
+
+.footer-links-main
+  display: flex
+  justify-content: space-around
+
+  a
+    color: #070716
+    font-weight: 300
+    font-size: 15px
+    text-transform: uppercase
+
+.footer-links-sub
+  display: flex 
+  justify-content: space-between
+  margin-top: 10px
+  a
+    color: #999999
+    font-size: 11px
+    font-weight: 300
+    text-transform: uppercase
+
+.footer-links-lang
+  text-align: center
+  margin-top: 5px
+
+.xs-visible
+  display: none
